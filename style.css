@@ -1,0 +1,55 @@
+body{
+    text-align: center;
+}
+.tic{
+    height:400px;
+    width:400px;
+    padding: 15px;
+}
+.box{
+    height:120px;
+    width:120px;
+    background-color: aqua;
+    margin:5px;
+    border:none;
+    border-radius: 10px;
+    vertical-align: middle;
+    color:black;
+    font-size:30px;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hide{
+    display: none;
+    font-size:35px;
+}
+.congrats{
+    line-height: 0px;
+    color:rgb(221, 152, 62);
+}
+.newgame{
+    line-height: 0px;
+}
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.none{
+    display: none;
+}
+.resetgame{
+    font-size: 20px;
+    font-weight: 550;
+    border-radius:5px;
+    border:none;
+    background-color: antiquewhite;
+}
+.winner{
+    padding: 300px;
+}
